@@ -34,7 +34,7 @@ class PostList extends Component {
           );
       });
       return (
-        <div>
+        <div className="PostList">
         {blogs}
       </div>
 

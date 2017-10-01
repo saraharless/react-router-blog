@@ -27,7 +27,7 @@ class ShowPost extends Component {
     render() {
 
           return (
-            <div>
+            <div className="Post">
               <h1>Blog Posts</h1>
               <h2> {this.state.blogDetails.blogTitle}</h2>
               <p>{this.state.blogDetails.blogEntry} </p>

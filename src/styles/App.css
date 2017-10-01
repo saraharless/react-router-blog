@@ -2,27 +2,68 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.AppHeader {
+  background-image: url('../images/pogs.jpg');
+  height: 400px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.AppText {
+  margin: 40px;
+}
+
+.NavbarHeader {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #00B9A4;
+  justify-content: space-between;
+}
+
+.NavbarHeader a {
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
   color: white;
+  text-transform: uppercase;
 }
 
-.App-title {
-  font-size: 1.5em;
+a:hover {
+  color: lavender;
 }
 
-.App-intro {
-  font-size: large;
+a:active {
+  color: purple;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+li {
+  padding-bottom: 20px;
+}
+
+.Create {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.Post {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.PostList {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+input {
+  padding-top: 5px;
+}
+
+footer {
+  text-transform: lowercase;
+  color: purple;
+  background-color: lavender;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }

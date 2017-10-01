@@ -7,34 +7,25 @@ export default class BaseLayout extends Component {
     return (
       <div className="container-fluid nav">
         <nav>
-          <div className="container-fluid">
-            <div className="navbar-header">
-              <ul className="navbar-nav">
-                <li>
+            <div className="NavbarHeader">
 
-                  <NavLink exact to='/'> <span className="splash">PollyBlog</span></NavLink>
 
-                </li>
-                <li>
+                  <NavLink exact to='/'> <span className="splash">Pog Blog</span></NavLink>
+
 
                   <NavLink exact to='/createpost'> <span className="splash">Create Post </span></NavLink>
 
-                </li>
-                <li>
 
                 <NavLink exact to='/postlist'> <span className="splash">Show All Posts</span></NavLink>
 
-                </li>
 
 
-              </ul>
             </div>
-          </div>
         </nav>
         {this.props.children}
         <footer>
           <span>
-            PollyBlog
+            <p>&copy; Pog Blog</p>
           </span>
         </footer>
       </div>

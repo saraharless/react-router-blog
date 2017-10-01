@@ -66,27 +66,27 @@ class CreatePost extends Component {
 
   render() {
     return (
-      <div>
+      <div className="Create">
     <form onSubmit={this.addToList}>
     <div >
     <div className= "form-group">
     <label className="form-control-label" for="author">Author:  </label>
     <br></br>
-    <input name="author" type="text" className="form-control" placeholder="Enter your username" onChange={this.handleAuthorChange} value={this.state.authorName}/>
+    <input name="author" type="text" className="form-control" placeholder="Username" onChange={this.handleAuthorChange} value={this.state.authorName}/>
     <br></br>
     </div>
     <div className= "form-group">
 
     <label className="form-control-label" for="title">Title:  </label>
     <br></br>
-    <input name="title" type="text"className="form-control" placeholder="Title" onChange={this.handleTitleChange} value={this.state.blogTitle}/>
+    <input name="title" type="text"className="form-control" placeholder="Clever Title" onChange={this.handleTitleChange} value={this.state.blogTitle}/>
      <br></br>
      </div>
      <div className= "form-group">
 
      <label className="form-control-label" for="blog">Blog Post: </label>
      <br></br>
-    <textarea rows="4" cols="50" className="form-control" name="blog" type="text" placeholder="Blog" onChange={this.handleBlogChange} value={this.state.blogEntry}></textarea>
+    <textarea rows="4" cols="50" className="form-control" name="blog" type="text" placeholder="Today I got a super cool new slammer ..." onChange={this.handleBlogChange} value={this.state.blogEntry}></textarea>
     <br></br>
     </div>
     <button className="btn btn-info" type="submit">Post Blog</button>
